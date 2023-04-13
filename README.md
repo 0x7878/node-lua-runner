@@ -1,8 +1,9 @@
-## Node-lua binding
+## Node-lua-runner
 
+This is a fork from medaeus245/node-lua since it wont get any updates anymore, and I needed some changes to make it work for my project.
 ## Installation
 
-`npm install node-lua`
+`npm install node-lua-runner`
 
 ## About
 

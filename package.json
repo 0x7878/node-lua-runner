@@ -1,8 +1,8 @@
 {
-  "name": "node-lua",
-  "version": "1.0.4",
+  "name": "node-lua-runner",
+  "version": "1.0.5",
   "description": "Lua Bindings For NodeJS",
-  "author": "medaeus245",
+  "author": "medaeus245, 0x7878",
   "main": "index.js",
   "keywords": [
     "lua",
@@ -17,10 +17,10 @@
   "dependencies": {
     "nan": "^2.6.2"
   },
-  "homepage": "http://github.com/medaeus245/node-lua",
+  "homepage": "https://github.com/0x7878/node-lua-runner",
   "repository": {
     "type": "git",
-    "url": "git@github.com:medaeus245/node-lua.git"
+    "url": "git@github.com:0x7878/node-lua-runner"
   },
   "license": "ISC",
   "gypfile": true

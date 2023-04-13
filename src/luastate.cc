@@ -32,6 +32,9 @@ void LuaState::setCurrentInstance(LuaState* instance) {
 
 void LuaState::Init(v8::Local<v8::Object> exports) {
 
+	v8::Isolate* isolate = v8::Isolate::GetCurrent();
+  v8::Local<v8::Context> context = isolate->GetCurrentContext();
+
 	Nan::HandleScope scope;
 
 	// Prepare constructor template
@@ -74,8 +77,11 @@ void LuaState::Init(v8::Local<v8::Object> exports) {
 	Nan::SetPrototypeMethod(tpl, "SetTop", SetTop);
 	Nan::SetPrototypeMethod(tpl, "Replace", Replace);
 
-	constructor.Reset(tpl->GetFunction());
-	exports->Set(Nan::New("LuaState").ToLocalChecked(), tpl->GetFunction());
+	constructor.Reset();
+	v8::Local<v8::String> key = Nan::New("LuaState").ToLocalChecked();
+v8::Local<v8::Function> value = tpl->GetFunction(context).ToLocalChecked();
+exports->Set(context, key, value).FromJust();
+
 }
 
 void LuaState::New(const Nan::FunctionCallbackInfo<v8::Value>& info) {
