@@ -1,6 +1,15 @@
 ## Node-lua-runner
 
-This is a fork from medaeus245/node-lua since it wont get any updates anymore, and I needed some changes to make it work for my project.
+This is a fork from [medaeus245/node-lua](https://github.com/medaeus245/node-lua) which won't get any updates anymore and was just outdated.
+Credits goes to him for the original work.
+
+This Package allows you to use LUA inside Node.js.
+See [`examples`](#examples).
+
+I refactored the code so that it will compile with newer Node.JS versions.
+I tested it with Windows 10 and Node.JS 18+. 
+Other Operating Systems or Combinations are not tested yet.
+
 ## Installation
 
 `npm install node-lua-runner`
@@ -29,15 +38,10 @@ Using Lua5.1 C interface: https://www.lua.org/manual/5.1/manual.html with luajit
 
 NOTE (Linux only): Don't forget to set your LD_LIBRARY_PATH to /usr/local/lib so that node-lua can find luajit.
 
-**Tested on:**
- - Windows (Node v6.10.2)
- - Linux (Node v4.2.6 & v.7.10.0)
-
-
 ## Examples
 
-- [Simple](https://github.com/medaeus245/node-lua/blob/master/examples/simple/index.js)
-- [Using lua require function](https://github.com/medaeus245/node-lua/blob/master/examples/lua_require/index.js)
+- [Simple](https://github.com/0x7878/node-lua-runner/blob/master/examples/simple/index.js)
+- [Using lua require function](https://github.com/0x7878/node-lua-runner/blob/master/examples/lua_require/index.js)
 
 
 

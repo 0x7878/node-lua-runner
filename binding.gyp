@@ -10,9 +10,9 @@
         [
           "OS=='win'",
           {
-"variables": { 
-   "module_root_dir": "<!(cd)"
-},
+          "variables": { 
+            "module_root_dir": "<!(cd)"
+            },
             "include_dirs": [
               "./win64luajit"
             ],
@@ -22,14 +22,15 @@
             "libraries": [
               "lua51.lib"
             ],
-             "copies":[
-                    { 
-                        'destination': './build/Release',
-                        'files':[
-                            '../../cl-fc-client-thirdparty/bugtrap/BugTrapU-x64.dll',
-                        ]
-                    }
-                  ]
+            "copies":[
+            { 
+              'destination': './build/Release',
+              'files':[
+                '<(module_root_dir)/win64luajit/lua51.dll',
+                '<(module_root_dir)/build/Release/lua51.dll'
+              ]
+            }
+            ]
           }
         ],
         [
