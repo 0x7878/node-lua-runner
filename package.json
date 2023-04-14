@@ -1,6 +1,6 @@
 {
   "name": "node-lua-runner",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Lua Bindings For NodeJS",
   "author": "medaeus245, 0x7878",
   "main": "index.js",
