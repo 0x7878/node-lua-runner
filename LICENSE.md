@@ -1,7 +1,7 @@
 
 ## License & Copyrights
 
-#### The ISC Licence (ISC) Copyright (c) 2017, Medaeus245
+#### The ISC Licence (ISC) Copyright (c) 2017, Medaeus245, 0x7878
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
