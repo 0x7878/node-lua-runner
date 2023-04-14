@@ -1,15 +1,15 @@
 {
   "name": "node-lua-runner",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Lua Bindings For NodeJS",
   "author": "medaeus245, 0x7878",
   "main": "index.js",
   "keywords": [
     "lua",
-		"lua5.1",
-		"node-lua",
-		"node-lua-binding",
-		"nodejs"
+    "lua5.1",
+    "node-lua",
+    "node-lua-binding",
+    "nodejs"
   ],
   "scripts": {
     "install": "node-gyp rebuild"
