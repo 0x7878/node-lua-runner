@@ -50,7 +50,7 @@ NOTE (Linux only): Don't forget to set your LD_LIBRARY_PATH to /usr/local/lib so
 
 ```javascript
 
-const nodelua = require('node-lua');
+const nodelua = require('node-lua-runner');
 
 var lua = new nodelua.LuaState();
 

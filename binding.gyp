@@ -27,7 +27,6 @@
               'destination': './build/Release',
               'files':[
                 '<(module_root_dir)/win64luajit/lua51.dll',
-                '<(module_root_dir)/build/Release/lua51.dll'
               ]
             }
             ]
