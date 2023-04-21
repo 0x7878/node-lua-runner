@@ -1,4 +1,3 @@
--- package.cpath = package.cpath .. ";V:\\Development\\github.com\\node-lua-runner\\build\\Release\\?.dll"
 local lfs = require"lfs"
 
 local counter = 0

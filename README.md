@@ -14,6 +14,10 @@ Other Operating Systems or Combinations are not tested yet.
 
 `npm install node-lua-runner`
 
+## 1.1.0	2023-04-21
+
+- Added LuaFileSystem for Windows (x64) compiled against luajit. See Examples for usage.
+
 ## About
 
 
@@ -22,7 +26,7 @@ Using Lua5.1 C interface: https://www.lua.org/manual/5.1/manual.html with luajit
 **Based on:**
  - nodelua ( https://github.com/brettlangdon/NodeLua )
  - node-luajit ( https://github.com/whtiehack/node-luajit )
-
+ - LuaFileSystem ( https://github.com/lunarmodules/luafilesystem )
 
 **Features:**
 - Low-Level API
@@ -42,8 +46,7 @@ NOTE (Linux only): Don't forget to set your LD_LIBRARY_PATH to /usr/local/lib so
 
 - [Simple](https://github.com/0x7878/node-lua-runner/blob/master/examples/simple/index.js)
 - [Using lua require function](https://github.com/0x7878/node-lua-runner/blob/master/examples/lua_require/index.js)
-
-
+- [using lua file system](https://github.com/0x7878/node-lua-runner/tree/master/examples/lua_lfs)
 
 ## API
 
