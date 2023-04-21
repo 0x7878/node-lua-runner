@@ -27,6 +27,11 @@
               'destination': './build/Release',
               'files':[
                 '<(module_root_dir)/win64luajit/lua51.dll',
+              ]},
+              {
+              'destination': './build/Release/clibs',
+              'files':[
+                '<(module_root_dir)/win64luajit/lfs.dll',
               ]
             }
             ]
