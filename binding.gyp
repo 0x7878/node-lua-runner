@@ -61,7 +61,7 @@
           'OS=="linux"',
           {
             "include_dirs": [
-              "<!(find /usr/include /usr/local/include $NODELUA_INCLUDE -name lua.h | sed s/lua.h//)"
+               "<!(find /usr/include /usr/local/include $NODELUA_INCLUDE -name lua.h -print -quit | sed s/lua.h//)"
             ],
             "library_dirs": [
               "/usr/local/lib"
